@@ -1,0 +1,16 @@
+{
+  "name": "final-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass scss/main.scss dist/style.css -w",
+    "compile:sass": "node-sass scss/main.scss dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
